@@ -1,0 +1,206 @@
+/* CSS Document */
+
+
+#header {
+    position: relative;
+    height: 10%;
+    width: 102%;
+    display: inline-block;
+  margin-left: -9px;
+margin-top: -8px;
+
+    line-height: 1.4em;
+    background-image: url("../img/my.png");
+    background-repeat: no-repeat;
+}
+
+#nav{
+   z-index: 1;
+   position: static;
+}
+#menu{
+    position: relative;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.right:hover{
+    color: #2aabd2;
+}
+
+#logo {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 10px;
+    height: 100px;
+    width: 0;
+    margin-bottom: 75px;
+}
+
+
+#logo img {
+    display: inline-block;
+    border: 2px;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+	border-radius:15%;
+
+    line-height: 1.4em;
+    transition: all .2s ease-in-out;
+
+    margin-top: 0;
+    height: 150px;
+}
+
+#logo img:hover {
+    transform: scale(1.1);
+}
+
+#social{
+	text-decoration:none;
+}
+
+#social ul{
+	float:right;
+	text-decoration:none;
+	margin-top: -3%;
+	margin-right: 3%;
+	list-style-type: none;
+}
+#social ul li{
+	float:left;
+	
+	list-style-type: none;
+	text-decoration:none;
+	
+		
+}
+#social ul li a{
+	text-decoration:none;
+}
+#social ul li a img{
+	text-decoration:none;
+	height:50px;
+	width:50px;
+}
+#navbar-right img{
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+#navbar-right img:hover {
+    transform: scale(1.1);
+}
+#email {
+    display: inline-block;
+    font-size: 11px;
+    font-family: 'My Custom Font', cursive;
+    margin-bottom: 60px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 33%;
+    border-radius: 5px;
+    float: left;
+	border-radius:5%;
+	
+}
+
+
+.card:hover {
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+.container {
+    padding: 2px 16px;
+}
+
+#Footer{
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    background-color: #00113B;
+    margin-top: 200px;
+}
+#footer img{
+    display: inline-block;
+}
+#footer h2{
+    display: inline-block;
+    color: whitesmoke;
+}
+#last{
+    text-align: center;
+    margin-left: 36%;
+}
+#social2 ul{
+    float: right;
+    text-decoration: none;
+
+}
+#social2 ul li{
+    float: left;
+    list-style: none;
+	 text-decoration: none;
+}
+
+#social_links{
+    float: right;
+    margin-top: 80px;
+    margin-right: 70px;
+    margin-bottom: -8px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#copy h2{
+    text-align: center;
+    background-color: #4A5980;
+    margin-top: 170px;
+    color: whitesmoke;
+    margin-left: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+}
+
+
+#content{
+
+    height: 100%;
+    width: 100%;
+    margin-left: 80px;
+    float: right;
+    display: inline-block;
+
+}
+
+
+.card-body{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 35%;
+	color:#FFF;
+	
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:2%;
+	
+	 margin: 0 auto; 
+     float: none; 
+     margin-bottom: 10px;
+	   
+
+}
+
+.card-body:hover {
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
+}

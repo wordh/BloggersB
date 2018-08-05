@@ -1,0 +1,567 @@
+/* CSS Document */
+
+#header {
+    position: relative;
+    height: 10%;
+    width: 102%;
+    display: inline-block;
+    margin-left: -9px;
+    margin-top: -8px;
+
+    line-height: 1.4em;
+    background-image: url("../img/my.png");
+    background-repeat: no-repeat;
+}
+
+#nav{
+   z-index: 1;
+   position: static;
+}
+#menu{
+    position: relative;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.right:hover{
+    color: #2aabd2;
+}
+
+#logo {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 10px;
+    height: 100px;
+    width: 0;
+    margin-bottom: 75px;
+}
+
+
+#logo img {
+    display: inline-block;
+    border: 2px;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+	border-radius:15%;
+
+    line-height: 1.4em;
+    transition: all .2s ease-in-out;
+
+    margin-top: 0;
+    height: 150px;
+}
+
+#logo img:hover {
+    transform: scale(1.1);
+}
+
+#social{
+	text-decoration:none;
+}
+
+#social ul{
+	float:right;
+	text-decoration:none;
+	margin-top: -3%;
+	margin-right: 3%;
+	list-style-type: none;
+}
+#social ul li{
+	float:left;
+	
+	list-style-type: none;
+	text-decoration:none;
+	
+		
+}
+#social ul li a{
+	text-decoration:none;
+}
+#social ul li a img{
+	text-decoration:none;
+	height:50px;
+	width:50px;
+}
+#yt img{
+	text-decoration:none;
+}
+#fb img{
+	text-decoration:none;
+}
+#rat{
+	
+	margin-bottom: 2%;
+}
+#social ul li a yt img{
+	height:5%;
+	width:5%;
+}
+#social ul li a fb img{
+	height:5%;
+	width:5%;
+}
+
+
+#navbar-right img{
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+#navbar-right img:hover {
+    transform: scale(1.1);
+}
+#email {
+    display: inline-block;
+    font-size: 11px;
+    font-family: 'My Custom Font', cursive;
+    margin-bottom: 60px;
+}
+
+#pro_image{
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 25%;
+
+}
+.product {border-style: solid;
+color:wheat;}
+
+#pro_image img{
+  height:350px;
+  width:350px;
+
+}
+#description{
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 25px;
+  color:wheat;
+}
+#form {
+    border: 3px solid #f1f1f1;
+}
+
+#input[type=text] {
+    width: 43%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#input[type=password]{
+	width: 43%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 7%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 10%;
+    border-radius: 41%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    color: wheat;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+#Type{
+    display:inline-block;
+}
+#Type h4{
+
+}
+#signUpForm{
+	margin:auto;
+	height:50%;
+	width: 50%;
+	border: 3px;
+	padding: 10px;
+	
+}
+#signUpForm h4{
+	  display: inline-block;
+  color: wheat;
+	  text-align: center;
+	  /*! align-content: center; */
+	  margin: auto;
+}
+#signUpForm form{
+	display:block;
+
+}
+#signUpForm input{
+	
+	display: block;
+
+}
+#option select{
+	display:block;
+	margin:auto;
+}
+
+#email:hover {
+    color: green;
+}
+
+#phone {
+    display: inline-block;
+    font-size: 11px;
+    font-family: 'My Custom Font', cursive;
+    margin-left: 40px;
+}
+
+#menu {
+
+    /*! width: 101%; */
+    /*! height: 4%; */
+    height: 4%;
+    width: 100%;
+}
+
+#menu img {
+
+    margin-left: 0%;
+    margin-top: 6px;
+    /*! width: 60%; */
+    height: 100%;
+    /*! align-items: center; */
+    align-content: center;
+}
+#ad{
+    height:200px;
+    width: 200px;
+    margin-left: 70px;
+}
+#Web_index_image{
+    height:200px;
+    width: 200px;
+    margin-left: 70px;
+}
+
+#Graphics_index_image{
+    height:200px;
+    width: 200px;
+    margin-left: 70px;
+
+}
+#Web_index_image_div{
+    float: right;
+}
+#form{
+  margin-left: 2%;
+}
+#sendbt{
+    float: right;
+    margin-top: 5px;
+}
+#formname{
+    width: 700px;
+    color: whitesmoke;
+}
+#formid{
+    width:700px;
+    color: whitesmoke;
+}
+#comment{
+    height:100px;
+    width: 700px;
+}
+#sendus{
+    text-align: center;
+    color: whitesmoke;
+}
+#formdiv{
+    margin-left: 0;
+    float: left;
+    display: inline-block;
+}
+#form h5{
+    color: whitesmoke;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 33%;
+    border-radius: 5px;
+    float: left;
+	border-radius:5%;
+	
+}
+
+
+.card:hover {
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+.container {
+    padding: 2px 16px;
+}
+
+#Footer{
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    background-color: #00113B;
+    margin-top: 200px;
+}
+#footer img{
+    display: inline-block;
+}
+#footer h2{
+    display: inline-block;
+    color: whitesmoke;
+}
+#last{
+    text-align: center;
+    margin-left: 36%;
+}
+#social2 ul{
+    float: right;
+    text-decoration: none;
+
+}
+#social2 ul li{
+    float: left;
+    list-style: none;
+	 text-decoration: none;
+}
+
+#social_links{
+    float: right;
+    margin-top: 80px;
+    margin-right: 70px;
+    margin-bottom: -8px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#copy h2{
+    text-align: center;
+    background-color: #4A5980;
+    margin-top: 170px;
+    color: whitesmoke;
+    margin-left: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+}
+
+
+#content{
+
+    height: 100%;
+    width: 100%;
+    margin-left: 80px;
+    float: right;
+    display: inline-block;
+
+}
+
+
+.card-body{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 35%;
+	color:#FFF;
+	
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:2%;
+	
+	 margin: 0 auto; 
+     float: none; 
+     margin-bottom: 10px;
+	   
+
+}
+
+.card-body:hover {
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
+}
+
+#circle{
+    float: right;
+
+    height: 100%;
+    width: 40%;
+   margin: auto;
+}
+#writing{
+    display: inline-block;
+    text-align: center;
+}
+#writing h1{
+    height: 100px;
+    width: 700px;
+    background-color: yellow;
+}
+#writing p{
+    display: inline-block;
+    width: 700px;
+}
+
+#wd3{
+    float: right;
+
+}
+#wd4{
+    display: inline-block;
+}
+#ad1{
+    float: right;
+}
+#gd1{
+    float: right;
+}
+
+#jsfnt{
+    font-family: 'My Custom Font1', cursive;
+	text-align:center;
+
+}
+#jsfnt1{
+    font-family: 'My Custom Font', cursive;
+}
+#content {
+    width: 100%;
+    position: relative;
+   padding-top: 20px;
+    line-height: 1.4em;
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
+@media only screen and (max-width: 479px){
+    #content { width: 90%; }
+}
+
+#test{
+    background-color: wheat;
+}
+
+
+#contact_details{
+    display: inline-block;
+    margin-left: 30px;
+}
+#contact_details h1{
+    font-family: 'My Custom Font1', cursive;
+}
+#contact_details dl{
+    font-family: 'My Custom Font', cursive;
+}
+#Contact_form{
+    width: 700px;
+    margin-left: 20px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 33%;
+    border-radius: 5px;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+#body2{
+    text-align: center;
+    color: coral;
+    padding-top: 52px;
+}
+#descriptions{
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    color: #4CAF50;
+}
+#Total{
+    text-align: right;
+    border: 3px solid #f1f1f1;
+    color: #4CAF50;
+    font-size: 50px;
+}
+#ButtonForFind{
+    text-align: center;
+    border: 3px solid #f1f1f1;
+    color: #4CAF50;
+    background-color: #4CAF50;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
